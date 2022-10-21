@@ -1,11 +1,11 @@
 footer {
-  background: #282A2D;
+  font-family: 'Roboto', sans-serif;
+  background: var(--footer-bg);
   padding-block: 50px;
   color: #fff;
   margin-bottom: 0;
-  font-family: 'Roboto', sans-serif;
 }
-.menu-footer {
+/* .menu-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
@@ -37,11 +37,5 @@ textarea {
 }
 input:hover {
   border-color: #fff;
-}
+} */
 
-.botao-roxo {
-  margin-top: 30px;
-  width: 50%;
-  background-color: #8B41EF;
-  cursor: pointer;
-}

@@ -1,3 +1,6 @@
+main {
+    background-color: var(--main-bg);
+}
 .main-menu {
     padding-block:60px ;
     padding-inline: 30px;
@@ -26,21 +29,7 @@
 .main-menu div p {
     margin-bottom: 20px;
 }
-.botao-amarelo {
-    display: inline-block;
-    width: 150px;
-    padding: 15px;
-    border-radius: 8px;
-    cursor: pointer;
-    background-color: #d8bd23;
-    align-self: end;
-    transition: 0.5s;
-  }
 
-.botao-amarelo:hover{
-    background-color: #ffd900;
-    transform: scale(1.05);
-}
 .game2 {
     grid-template-columns: 1fr 320px ;
 }
