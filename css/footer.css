@@ -1,0 +1,47 @@
+footer {
+  background: #282A2D;
+  padding-block: 50px;
+  color: #fff;
+  margin-bottom: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.menu-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.form-model fieldset{
+  padding: 20px;
+  border: none;
+  border-left: 5px solid #8B41EF;
+}
+.form-model legend {
+  font-size: 25px;
+}
+label {
+  display: block;
+  margin-block: 5px;
+  color: #B0B2B3;
+  
+}
+input,
+textarea {
+  padding: 15px;
+  width: 80%;
+  color: #fff;
+  background-color: #1B1D20;
+  display: block;
+  border-color: #000;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+input:hover {
+  border-color: #fff;
+}
+
+.botao-roxo {
+  margin-top: 30px;
+  width: 50%;
+  background-color: #8B41EF;
+  cursor: pointer;
+}

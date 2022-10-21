@@ -1,0 +1,59 @@
+.main-menu {
+    padding-block:60px ;
+    padding-inline: 30px;
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    color: #fff;
+    gap: 10px;
+}
+.preco {
+    color: #d8bd23;
+}
+.main-menu img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+    display: block;
+}
+
+.main-menu div {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.main-menu div h1,
+.main-menu div p {
+    margin-bottom: 20px;
+}
+.botao-amarelo {
+    display: inline-block;
+    width: 150px;
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #d8bd23;
+    align-self: end;
+    transition: 0.5s;
+  }
+
+.botao-amarelo:hover{
+    background-color: #ffd900;
+    transform: scale(1.05);
+}
+.game2 {
+    grid-template-columns: 1fr 320px ;
+}
+.game2 img {
+    grid-column: 2;
+}
+.game2 div {
+    grid-column: 1;
+    grid-row: 1;
+}
+.game2 div h1 {
+    align-self: end;
+}
+.game2 div button {
+    align-self: start;
+}
