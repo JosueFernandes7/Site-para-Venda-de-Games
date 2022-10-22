@@ -5,6 +5,14 @@ footer {
   color: #fff;
   margin-bottom: 0;
 }
+.footer-contato {
+  display: grid;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-contato li {
+  list-style: circle;
+}
 /* .menu-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
