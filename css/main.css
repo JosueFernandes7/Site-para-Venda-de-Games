@@ -43,6 +43,28 @@ main {
 .game2 div h1 {
     align-self: end;
 }
-.game2 div button {
+.game2 .botao-amarelo {
     align-self: start;
+}
+@media (max-width: 950px) {
+    .main-menu img {
+        width: 100%;
+        height: 320px;
+        display: inline-block;
+        height: none;
+        object-fit: contain;
+
+    }
+    .main-menu {
+        padding-block:30px ;
+        padding-inline: 30px;
+        grid-template-columns: 1fr;
+    }
+    .game2 img {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .game2 div {
+        grid-row: 2;
+    }
 }
