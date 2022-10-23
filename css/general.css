@@ -6,11 +6,11 @@
   --header-bg: #0E1013;
   --main-bg: #131518;
   --footer-bg: #282A2D;
+  box-sizing: border-box;
 }
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
   text-decoration: none;
 }
 a {
